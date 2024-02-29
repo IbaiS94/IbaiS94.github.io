@@ -1,0 +1,14 @@
+# Page Setup
+url: https://xabierland.github.io/
+author: Xabier Gabiña Barañano
+theme: minima
+
+# Build Settings
+collections_dir: ./collections
+collections:
+  projects:
+    output: true
+    permalink: /proyectos/:title/
+  blogs:
+    output: true
+    permalink: /blogs/:title/
