@@ -504,15 +504,11 @@
                 <div eye="sm">Santurtzi</div>
               </div>
               <h3 class="heading" heading="4xl">
-                <div>Las inscripciones acaban en</div>
+                <div>Las inscripciones ya ha acabado</div>
               </h3>
             </div>
-            <div set-date="March 31, 2024 23:59:59" class="cnt-features-left"><div class="grp-metric event-page"><h6 id="day" class="timer-text">00</h6><p eye="xs">Días<br/></p></div><div class="grp-metric event-page"><h1 id="hour" class="timer-text">00</h1><p eye="xs">Horas<br/></p></div><div class="grp-metric event-page"><h1 id="minute" class="timer-text">00</h1><p eye="xs">Minutos<br/></p></div><div class="grp-metric event-page"><h1 id="second" class="timer-text">00</h1><p eye="xs">Segundos<br/></p></div></div></div><div class="hide w-embed w-script"><script>
-    function pad(number) {
-        return number < 10 ? "0" + number : number;
-    }
     
-    
+    <script>
     // Find the date from the element with the class 'cnt-features-left'
     var setDateElement = document.querySelector('.cnt-features-left');
     var setDateAttribute = setDateElement ? setDateElement.getAttribute('set-date') : null;
