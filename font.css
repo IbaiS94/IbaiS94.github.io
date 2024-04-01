@@ -197,6 +197,8 @@ td, th {
   font-family: webflow-icons !important;
 }
 
+
+
 .w-icon-slider-right:before {
   content: "î˜€";
 }
@@ -15923,12 +15925,18 @@ figcaption {
   color: var(--neutral-white-70);
   text-align: center;
   background-color: rgba(255, 255, 255, .05);
+  border: 1px solid rgba(255, 255, 255, .05);
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
   display: flex;
   position: relative;
   overflow: hidden;
+
+}
+
+.menu-category_item a div[eye="xs"] {
+  font-size: 20px; /* Tamaño de fuente deseado */
 }
 
 .category-logo-card_wrapper.image-bg {
